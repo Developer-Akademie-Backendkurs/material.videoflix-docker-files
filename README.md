@@ -60,20 +60,7 @@ der vorhandenen Variablen.</span>
 > <span style="color: red;">Du kannst (und musst), weitere Packages installieren und auch entsprechende Änderungen an
 der `settings.py` Datei vornehmen. <ins>Achte darauf deine `requirements.txt` Datei regelmäßig zu aktualisieren.<ins></span>
 
-1. **Klone das Repository**
-
-    > [!TIP]
-    > @Kevin @Dominik
-    > Eventuell brauchen wir diesen Punkt nicht?!
-
-    ```bash
-    git clone <Link zum Repository>
-
-    # Navigiere zum Projekt Ordner
-    cd <Projekt Ordner>
-    ```
-
-2. **Definiere die Umgebungsvariablen, unter Benutzung der [.env.template](./.env.template) Datei**. Nutze hierzu die
+1. **Definiere die Umgebungsvariablen, unter Benutzung der [.env.template](./.env.template) Datei**. Nutze hierzu die
 `git bash Komandozeile`.
 
     ```bash
