@@ -4,7 +4,7 @@ Dies ist ein Docker Setup, dass dir die Entwicklung und uns die Abnahme des Vide
 
 Vor der Verwendung schaue dir bitte die einführenden Videos unter:
 
-[Link zu Videos](https://google.de)
+[Link zu Videos](https://developer-akademie.teachable.com/courses/enrolled/1656501)
 
 dazu an.
 
