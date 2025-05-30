@@ -192,6 +192,11 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 docker-compose up --build
 ```
 
+-> falls das nicht funktioniert, verwende (ohne "-")
+```bash
+docker compose up --build
+```
+
 Open application in browser on [localhost:8000](http://localhost:8000).
 
 ---
