@@ -248,6 +248,7 @@ Um gemachte Änderungen an der Datenbankstruktur an Docker zu übertragen hast d
 
     - stoppe Docker in der Kommandozeile mit der Tastenkombination `Strg+C`
     - starte Docker neu mit dem Befehl `docker-compose up --build`
+    - falls `docker-compose up --build` nicht funktioniert, verwende `docker compose up --build`
 
 2. Führe die Migration direkt im Docker Container aus (besser)
 
