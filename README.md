@@ -310,4 +310,20 @@ pip list --not-required
     >
     > Siehe [Google Suche](https://www.google.com/search?sca_esv=81208bf63503b115&rlz=1C1CHBF_deDE1069DE1069&q=cr+lf+lf+in+vscode&spell=1&sa=X&ved=2ahUKEwihofbto4eNAxXK9bsIHXhtCLYQBSgAegQIDxAB&biw=1920&bih=911&dpr=1)
 
+- **Beim Starten des Docker Containern erhältst du nach einer Änderung der Datenbank eine Fehlermeldung, dass die
+Migration der Datenbank fehlschlägt.**
+
+    > [!NOTE]
+    > Dies kann passieren, wenn du Änderungen an einem Model vornimmst. Um trotzdem eine Migration durchführen zu können
+    kannst do folgenden Befehl verwenden:
+    >
+    > ```bash
+    > # docker run --rm [OPTIONEN] <DEIN_IMAGE_NAME> <DEIN_MIGRATIONSBEFEHL>
+    > docker run --rm web python manage.py makemigrations
+    >
+    > # oftmals reicht dieser Befehl bereits aus um beim nächsten start das Problem zu umgehen.
+    > # Zur Sicherheit kannst du aber auch direkt im Anschluss die eigentliche Migration durchführen.
+    > docker run --rm web python manage.py migrate
+    > ```
+    >
 ---
